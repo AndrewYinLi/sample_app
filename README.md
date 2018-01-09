@@ -38,4 +38,8 @@ $ rails server
 ```
 
 For more information, see the
+<<<<<<< HEAD
 [*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
+=======
+[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
+>>>>>>> 840f55358d14deb70ae85865b452c277cf5d5814
