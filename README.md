@@ -1,45 +1,19 @@
-# Ruby on Rails Tutorial sample application
+# Ruby on Rails Tutorial: sample application
+
+**This repository is not current or maintained. See [www.railstutorial.org/help](https://www.railstutorial.org/help) for the current version of the sample app.**
 
 This is the sample application for
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
+[*Ruby on Rails Tutorial: Learn Web Development with Rails*](http://railstutorial.org/)
+by [Michael Hartl](http://michaelhartl.com/). You can use this reference implementation to help track down errors if you end up having trouble with code in the tutorial. In particular, as a first debugging check I suggest getting the test suite to pass on your local machine:
 
-## License
+    cd /tmp
+    git clone https://github.com/railstutorial/sample_app_rails_4.git
+    cd sample_app_rails_4
+    cp config/database.yml.example config/database.yml
+    bundle install --without production
+    bundle exec rake db:migrate
+    bundle exec rake db:test:prepare
+    bundle exec rspec spec/
 
-All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/)
-is available jointly under the MIT License and the Beerware License. See
-[LICENSE.md](LICENSE.md) for details.
+If the tests don't pass, it means there may be something wrong with your system. If they do pass, then you can debug your code by comparing it with the reference implementation.
 
-## Getting started
-
-To get started with the app, clone the repo and then install the needed gems:
-
-```
-$ bundle install --without production
-```
-
-Next, migrate the database:
-
-```
-$ rails db:migrate
-```
-
-Finally, run the test suite to verify that everything is working correctly:
-
-```
-$ rails test
-```
-
-If the test suite passes, you'll be ready to run the app in a local server:
-
-```
-$ rails server
-```
-
-For more information, see the
-<<<<<<< HEAD
-[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
-=======
-[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
->>>>>>> 840f55358d14deb70ae85865b452c277cf5d5814
