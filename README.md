@@ -1,45 +1,5 @@
-# Ruby on Rails Tutorial sample application
+Created January 2018 following http://www.railstutorial.org/book)
 
-This is the sample application for
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
+This project is essentially a Twitter clone written in Ruby on Rails 5.1.4
 
-## License
-
-All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/)
-is available jointly under the MIT License and the Beerware License. See
-[LICENSE.md](LICENSE.md) for details.
-
-## Getting started
-
-To get started with the app, clone the repo and then install the needed gems:
-
-```
-$ bundle install --without production
-```
-
-Next, migrate the database:
-
-```
-$ rails db:migrate
-```
-
-Finally, run the test suite to verify that everything is working correctly:
-
-```
-$ rails test
-```
-
-If the test suite passes, you'll be ready to run the app in a local server:
-
-```
-$ rails server
-```
-
-For more information, see the
-<<<<<<< HEAD
-[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
-=======
-[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
->>>>>>> 840f55358d14deb70ae85865b452c277cf5d5814
+-Andrew Yin Li
